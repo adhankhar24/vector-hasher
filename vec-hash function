@@ -7,3 +7,4 @@ struct VectorHasher {
         return hash;
     }
 };
+unordered_map<vector<int>,string,VectorHasher> hashMap;
